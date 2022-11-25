@@ -1,0 +1,35 @@
+name: flutter_test_1
+description: A new Flutter project.
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_bloc: ^7.3.3
+  equatable: ^2.0.5
+  cupertino_icons: ^1.0.2
+  animator: ^3.2.0
+  json_serializable: ^6.5.4
+  json_annotation: ^4.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+  build_runner: ^2.3.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/placeholder.jpg
+
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+  # https://flutter.dev/assets-and-images/#from-packages
+  # see https://flutter.dev/custom-fonts/#from-packages
